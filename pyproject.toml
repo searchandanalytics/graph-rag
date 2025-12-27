@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "graph-rag"
+version = "0.1.0"
+description = "GraphRAG with FalkorDB and Ollama"
+authors = ["Your Name <your@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+falkordb = ">=1.0.0"
+ollama = ">=0.1.0"
+fastapi = ">=0.104.0"
+uvicorn = {extras = ["standard"], version = ">=0.24.0"}
+python-dotenv = ">=1.0.0"
+numpy = ">=1.24.0"
+scikit-learn = ">=1.3.0"
+pandas = ">=2.0.0"
+networkx = ">=3.0"
+pydantic = ">=2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
