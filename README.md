@@ -71,7 +71,7 @@ docker run -p 6379:6379 -it --rm falkordb/falkordb
     # Ollama Configuration
     OLLAMA_BASE_URL=http://localhost:11434
     OLLAMA_EMBEDDING_MODEL=nomic-embed-text
-    OLLAMA_TEXT_MODEL=llama3
+    OLLAMA_TEXT_MODEL=deepseek-r1:8b
     ```
 
 ## 🚀 Usage
