@@ -24,7 +24,7 @@ Download Ollama from [ollama.com](https://ollama.com).
 
 Pull the necessary models:
 ```bash
-ollama pull llama3
+ollama pull deepseek-r1:8b
 ollama pull nomic-embed-text
 ```
 
